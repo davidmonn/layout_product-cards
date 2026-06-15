@@ -1,0 +1,13 @@
+@import './styles/utils/var';
+@import './styles/blocs/card';
+@import './styles/blocs/stars';
+
+html {
+  color: $color-main;
+
+  font-family: $font-default;
+  font-weight: 500;
+  font-size: 12px;
+
+  line-height: 18px;
+}
