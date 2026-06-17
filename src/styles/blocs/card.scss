@@ -66,11 +66,6 @@
   }
 
   &__buy-btn {
-    text-decoration: none;
-    font-weight: 700;
-  }
-
-  &__cont-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,13 +80,23 @@
     border-radius: 5px;
 
     text-transform: uppercase;
+    text-decoration: none;
 
-    &:hover {
-      background-color: white;
-    }
+    font-weight: 700;
+    color: #fff;
 
-    &:hover .card__buy-btn {
-      color: $color-btn;
-    }
+      &:hover {
+        background-color: #fff;
+        color: $color-btn;
+      }
+
   }
+
 }
+
+
+
+
+
+
+
